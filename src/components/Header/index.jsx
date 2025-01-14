@@ -4,15 +4,15 @@ import logo from '../../assets/img/header/logo.png'
 
 export default function Header() {
 	const HeaderDb = ['Home', 'About Us', 'Services', 'Our Teams']
-	const RoutesDb = ['/', '/about-us', '/services', '/our-teams', '/contacts-us']
+	const RoutesDb = [
+		'/dananz',
+		'/dananz/about-us',
+		'/dananz/services',
+		'/dananz/our-teams',
+		'/dananz/contacts-us',
+	]
 	// const [activeTab, setActiveTab] = React.useState(0)
 
-	
-
-
-
-
-	
 	// функционал для сохранения активного таба в localStorage
 	// Получаем значение активного таба из localStorage или устанавливаем по умолчанию 0
 	const [activeTab, setActiveTab] = React.useState(() => {
@@ -28,7 +28,7 @@ export default function Header() {
 	return (
 		<header className='header section'>
 			<div className='header__inner container'>
-				<Link to='/' className='header__inner-logo'>
+				<Link to='/dananz' className='header__inner-logo'>
 					<img src={logo} alt='img' />
 				</Link>
 				<div className='header__inner-list'>
@@ -48,7 +48,7 @@ export default function Header() {
 					))}
 				</div>
 				<Link
-					to='/contact-us'
+					to='/dananz/contact-us'
 					onClick={() => setActiveTab(-1)}
 					className='header__inner-btn blue-link'
 				>

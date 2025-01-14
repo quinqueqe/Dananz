@@ -15,11 +15,11 @@ function App() {
 		<>
 			<Header />
 			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/about-us' element={<AboutUs />} />
-				<Route path='/services' element={<Services />} />
-				<Route path='/our-teams' element={<OurTeams />} />
-				<Route path='/contact-us' element={<ContactUs />} />
+				<Route path='/dananz' element={<Home />} />
+				<Route path='/dananz/about-us' element={<AboutUs />} />
+				<Route path='/dananz/services' element={<Services />} />
+				<Route path='/dananz/our-teams' element={<OurTeams />} />
+				<Route path='/dananz/contact-us' element={<ContactUs />} />
 			</Routes>
 			<Discuss />
 			<Footer />
