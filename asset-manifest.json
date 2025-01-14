@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dananz/static/css/main.4ec9a8d1.css",
-    "main.js": "/dananz/static/js/main.b874f63d.js",
-    "static/media/back.png": "/dananz/static/media/back.ede40c73958a751ed0f5.png",
-    "static/media/img.png": "/dananz/static/media/img.39904a6d246115ad80bd.png",
-    "static/media/illustation.jpg": "/dananz/static/media/illustation.eede585033d2cb0f4198.jpg",
-    "static/media/left.png": "/dananz/static/media/left.bd82fc72c7596231c3fc.png",
-    "static/media/rightTop.png": "/dananz/static/media/rightTop.8b02d836810407a92a77.png",
-    "static/media/rightBot.png": "/dananz/static/media/rightBot.97ec45e111ae13af8bbd.png",
-    "index.html": "/dananz/index.html",
-    "static/media/arrow.svg": "/dananz/static/media/arrow.9cfd1a9da328ab924787dbb0e6b251f7.svg",
-    "static/media/arrow-right.svg": "/dananz/static/media/arrow-right.0fcec325f715d570727a58bd5abf1e04.svg",
-    "main.4ec9a8d1.css.map": "/dananz/static/css/main.4ec9a8d1.css.map",
-    "main.b874f63d.js.map": "/dananz/static/js/main.b874f63d.js.map"
+    "main.css": "/dananz-project/static/css/main.4ec9a8d1.css",
+    "main.js": "/dananz-project/static/js/main.e850b127.js",
+    "static/media/back.png": "/dananz-project/static/media/back.ede40c73958a751ed0f5.png",
+    "static/media/img.png": "/dananz-project/static/media/img.39904a6d246115ad80bd.png",
+    "static/media/illustation.jpg": "/dananz-project/static/media/illustation.eede585033d2cb0f4198.jpg",
+    "static/media/left.png": "/dananz-project/static/media/left.bd82fc72c7596231c3fc.png",
+    "static/media/rightTop.png": "/dananz-project/static/media/rightTop.8b02d836810407a92a77.png",
+    "static/media/rightBot.png": "/dananz-project/static/media/rightBot.97ec45e111ae13af8bbd.png",
+    "index.html": "/dananz-project/index.html",
+    "static/media/arrow.svg": "/dananz-project/static/media/arrow.9cfd1a9da328ab924787dbb0e6b251f7.svg",
+    "static/media/arrow-right.svg": "/dananz-project/static/media/arrow-right.0fcec325f715d570727a58bd5abf1e04.svg",
+    "main.4ec9a8d1.css.map": "/dananz-project/static/css/main.4ec9a8d1.css.map",
+    "main.e850b127.js.map": "/dananz-project/static/js/main.e850b127.js.map"
   },
   "entrypoints": [
     "static/css/main.4ec9a8d1.css",
-    "static/js/main.b874f63d.js"
+    "static/js/main.e850b127.js"
   ]
 }
