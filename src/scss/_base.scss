@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    font-size: calc(100vw / 1920 * 10);
+
+    @media (max-width: 1024px) {
+        font-size: calc(100vw / 768 * 10);
+    }
+
+    @media (max-width: 767px) {
+        font-size: calc(100vw / 500 * 10);
+    }
+
+    @media (max-width: 500px) {
+        font-size: calc(100vw / 360 * 10);
+    }
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--grayscale-50);
+    scroll-behavior: smooth;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+
+
+
+
+// кнопки
+.blue-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--grayscale-white);
+
+    border: 1px solid var(--grayscale-30);
+    padding: 14px 32px;
+    background: var(--primary-blue-100);
+
+    &:hover {
+        background: var(--grayscale-black);
+        transition: all 0.3s ease 0s;
+    }
+}
+
+.white-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--grayscale-50);
+
+    padding: 14px 32px;
+    background: var(--grayscale-white);
+    width: 100%;
+    max-width: 161px;
+
+    &:hover {
+        background: var(--grayscale-black);
+        color: var(--grayscale-white);
+        transition: all 0.3s ease 0s;
+    }
+
+
+    &-border {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--grayscale-50);
+
+        padding: 14px 32px;
+        background: var(--grayscale-white);
+        width: 100%;
+        max-width: 161px;
+
+        border: 1px solid var(--grayscale-30);
+
+        &:hover {
+            border: none;
+            background: var(--grayscale-black);
+            transition: background 0.3s ease;
+            color: var(--grayscale-white);
+            // transition: all 0.2s ease 0s;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// для будущих проектов
+.service-btn-active {
+    transform: rotate(0deg);
+    transition: rotate .6s ease;
+    rotate: 90deg;
+}
+
+// анимация поворота стрелочки вниз из начального положения вправо (в табах блока 'service')

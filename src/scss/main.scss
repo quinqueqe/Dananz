@@ -1,0 +1,36 @@
+// базовые подключения
+@import "vars";
+@import "base";
+@import "nullstyle";
+@import "elements";
+
+// подключения общих компонентов страниц
+@import "./components/header";
+@import "./components/discuss";
+@import "./components/footer";
+
+
+// подключения компонентов страницы Home
+@import "./components/hero";
+@import "./components/about";
+@import "./components/service";
+@import "./components/product";
+@import "./components/material";
+
+
+// подключения компонентов страницы About Us
+@import "./components/achievment";
+@import "./components/chooseUs";
+
+
+// подключения компонентов страницы Services
+@import "./components/achievmentServices";
+
+
+// подключения компонентов страницы Our Teams
+@import "./components/designer";
+
+
+// подключения компонентов страницы Contact Us
+@import "./components/contactUsForm";
+@import "./components/location";

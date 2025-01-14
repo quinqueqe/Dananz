@@ -1,0 +1,115 @@
+.footer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	&__inner {}
+
+	&-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+
+		&__left {
+			&-title {
+				max-width: 480px;
+			}
+		}
+
+		&__right {
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+
+			&-form {
+
+				p {
+					font-family: var(--font-family);
+					font-weight: 400;
+					font-size: 18px;
+					line-height: 160%;
+					color: var(--grayscale-50);
+					padding-bottom: 25px;
+					position: relative;
+					padding-left: 30px;
+
+					&::after {
+						content: '';
+						background: url('../../assets/img/footer/curcle.png');
+						position: absolute;
+						width: 22px;
+						height: 23px;
+						top: 12%;
+						left: -4px;
+						object-fit: cover;
+					}
+
+				}
+
+				&-inputBlock {
+					padding-bottom: 40px;
+					position: relative;
+					display: flex;
+					justify-content: space-between;
+
+					input {
+						font-family: var(--font-family);
+						font-weight: 400;
+						font-size: 16px;
+						line-height: 160%;
+						padding-bottom: 15px;
+						width: 100%;
+						max-width: 440px;
+						border: 1px solid var(--grayscale-70);
+						border-top: 0;
+						border-left: 0;
+						border-right: 0;
+
+						&::placeholder {
+							color: var(--grayscale-lightray);
+						}
+					}
+
+					button {
+						content: '';
+						position: absolute;
+						top: 0;
+						height: 27px;
+						width: 26px;
+						right: 0;
+						object-fit: cover;
+					}
+				}
+
+			}
+
+			&-social {
+				h6 {
+					font-family: var(--font-family);
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 160%;
+					color: var(--grayscale-50);
+					padding-bottom: 15px;
+				}
+
+				ul {
+					display: flex;
+					gap: 25px;
+
+					li {
+						button {
+							border-radius: 100%;
+							background: var(--grayscale-lightray);
+							padding: 5px;
+
+							&:hover {
+								background: var(--primary-blue-100);
+								transition: background 0.3s ease;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

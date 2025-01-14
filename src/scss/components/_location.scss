@@ -1,0 +1,43 @@
+.location {
+	&__inner {}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+
+		&-left {
+			&-visit {}
+
+			&-info {
+				display: flex;
+				gap: 35px;
+				flex-direction: column;
+
+				h4 {
+					padding-bottom: 10px;
+				}
+			}
+		}
+
+		&-right {
+			h5 {
+				padding-bottom: 30px;
+			}
+
+			p {
+				max-width: 334px;
+			}
+
+			ul {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: 1fr 1fr;
+				gap: 60px;
+
+				li {
+					grid-column: 1 span;
+				}
+			}
+		}
+	}
+}

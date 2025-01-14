@@ -1,0 +1,33 @@
+.product {
+	&__inner {
+		&-main {
+			padding-bottom: 75px;
+			display: flex;
+			justify-content: space-between;
+
+			&-title {
+				max-width: 337px;
+			}
+
+			&-desc {
+				max-width: 473px;
+			}
+		}
+
+
+		&-tabs {
+			display: flex;
+			flex-direction: column;
+			gap: 43px;
+		}
+	}
+}
+
+.width470 {
+	max-width: 470px;
+	padding-left: 120px !important;
+}
+
+.gap87 {
+	gap: 87px;
+}

@@ -1,0 +1,33 @@
+.material {
+	&__inner {
+		&-content {
+			display: flex;
+			justify-content: space-between;
+
+			&-title {
+				max-width: 350px;
+				padding-bottom: 10px;
+			}
+
+			&-desc {
+				max-width: 500px;
+				padding-bottom: 23px;
+			}
+
+
+			&-right {
+				display: flex;
+				gap: 40px;
+
+				&_right {
+					display: flex;
+					flex-direction: column;
+					gap: 40px;
+					margin-top: -100px;
+				}
+
+
+			}
+		}
+	}
+}
